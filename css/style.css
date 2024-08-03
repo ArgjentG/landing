@@ -1,0 +1,166 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  color: white;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.container-banner {
+  margin: auto;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.container-cards {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: auto;
+}
+
+.container-cards h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.cards {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto 150px;
+}
+
+.card-one img {
+  width: 50%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.card-two img {
+  width: 50%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.card-three img {
+  width: 50%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.card-one {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 15px;
+}
+
+.card-two {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 15px;
+}
+
+.card-three {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container-footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+ .links a {
+  font-size: 30px;
+  color: #1EDD88;
+ }
+
+ .links p {
+  color: #6B6C6C;
+ }
+
+ .links p i {
+  color: red;
+ }
